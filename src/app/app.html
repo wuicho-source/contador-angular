@@ -1,0 +1,20 @@
+<div class="contenedor">
+
+  <h1>Mi Contador</h1>
+  <p class="descripcion">Controla el valor con los botones</p>
+
+  <div class="numero">
+    {{ contador }}
+  </div>
+
+  <p>{{ mensaje }}</p>
+
+  <div class="botones">
+    <button (click)="disminuir()">−</button>
+
+    <button (click)="reiniciar()">Reiniciar</button>
+
+    <button (click)="aumentar()">+</button>
+  </div>
+
+</div>

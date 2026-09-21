@@ -1,0 +1,41 @@
+.contenedor {
+  width: 400px;
+  margin: 100px auto;
+  padding: 30px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background: #f1f5f9;
+  border-radius: 15px;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+.descripcion {
+  color: #64748b;
+}
+
+.numero {
+  margin: 25px 0;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
