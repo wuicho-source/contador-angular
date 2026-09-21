@@ -28,7 +28,7 @@ jobs:
         run: npm ci
 
       - name: Compilar Angular
-        run: npm run build
+        run: npm run build -- --base-href /contador-angular/
 
       - name: Configurar Pages
         uses: actions/configure-pages@v5
